@@ -1,0 +1,17 @@
+:root{
+    /* primitive color */
+    --primary-50:#EEF2FF;
+    --primary-100:#4F46E5;
+    --primary-200:#3730A3;
+    /* token */
+        /* button */
+    --button-primary:var(--primary-100);
+    --button-primary-hover:var(--primary-200);
+        /* texte */
+    --text-primary-onColor:var(--primary-50);   
+}
+
+.button-primary{
+    background-color:var(--button-primary);
+    color: var(--text-primary-onColor);
+}
